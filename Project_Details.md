@@ -28,4 +28,4 @@
      words, and time-based sentiment trends.
   - **8. Continuous Improvement**
     - Regularly retrain and fine-tune the model with new data to adapt to changes in customer sentiment or language usage trends.
-<img src="img_chania.jpg" alt="Flowers in Chania">
+
