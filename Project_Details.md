@@ -2,7 +2,7 @@
 - Customer Sentiment Analysis is a technique used to determine how customers feel about a `product, service, or brand by analyzing their feedback.`
 - This analysis helps companies understand `customer satisfaction, loyalty, and needs,` making it essential for improving customer experiences and decision-making.
   -  Here’s a step-by-step overview of how a customer sentiment analysis pipeline might be structured, especially using machine learning and NLP:
-    - ** 1. Data Collection**
+    - **1. Data Collection**
        -  Collect data from customer reviews, social media posts, surveys, emails, and other customer feedback sources.
        - Use web scraping or APIs (e.g., Twitter API, Reddit API) to gather this data if it’s public.
    - **2. Data Preprocessing**
