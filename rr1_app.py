@@ -30,7 +30,7 @@ st.title("Customer Review Sentiment Analysis")
     
 # File uploader for the dataset
 dataset = st.file_uploader(r"Restaurant_Reviews.tsv",type= ["tsv"])
-data = pd.read_csv(r'Restaurant Review.py')
+#data = pd.read_csv(r'Restaurant Review.py')
 if dataset is not None:
     # Load dataset
     dataset = pd.read_csv(dataset, delimiter='\t', quoting=3)
