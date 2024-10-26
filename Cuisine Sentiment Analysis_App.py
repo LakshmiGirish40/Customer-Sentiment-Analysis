@@ -29,7 +29,7 @@ st.title("Customer Review Sentiment Analysis")
 
     
 # File uploader for the dataset
-dataset = st.file_uploader(r"D:\Data_Science&AI\Restaurant_Reviews.tsv",type= ["tsv"])
+dataset = st.file_uploader(r"Restaurant_Reviews.tsv",type= ["tsv"])
 
 if dataset is not None:
     # Load dataset
