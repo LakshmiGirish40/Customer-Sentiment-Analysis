@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-dataset = pd.read_csv(r"C:\Users\laksh\VS_Code\Machine_Learning\Restaurent_Review-NLP_NLTK\Restaurant_Reviews.tsv", delimiter='\t', quoting=3)
+dataset = pd.read_csv("Restaurant_Reviews.tsv", delimiter='\t', quoting=3)
 
 import re
 import nltk
