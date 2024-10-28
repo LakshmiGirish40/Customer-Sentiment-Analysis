@@ -78,8 +78,8 @@ if dataset is not None:
             elif prediction[0] == 0:
                 st.image("dislike.jpg", caption="Bad Review",width=50)
                 st.subheader("Sentiment Distribution")
-                st.subheader("Word Cloud for Positive and Negative Feedback")
-                negative_reviews = " ".join([corpus[i] for i in range(len(corpus)) if y[i] == 0])
+                st.subheader("Word Cloud for Negative Feedback")
+                negative_reviews = " ".join([corpus[i] for i in range(len(corpus)) if y[i] == 1])
                 wordcloud_neg = WordCloud(width=400, height=200, background_color="white").generate(negative_reviews)
                 st.image(wordcloud_neg.to_array(), caption="Negative Feedback", use_column_width=True)
 
