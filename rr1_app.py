@@ -75,7 +75,7 @@ if dataset is not None:
             if  prediction[0] == 1:
                 st.image("like.jpg", caption="Good Review",width=50)
             elif prediction[0] == 0:
-                st.image("dilike.jpg", caption="Bad Review",width=50)
+                st.image("dislike.jpg", caption="Bad Review",width=50)
 
 # Display sentiment distribution
     st.subheader("Sentiment Distribution")
