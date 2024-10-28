@@ -73,9 +73,9 @@ if dataset is not None:
             # Display the prediction
             res = st.write("Predicted Sentiment:", "Positive" if prediction[0] ==1 else "Negative")
             if  prediction[0] == 1:
-                st.image("dislike.jpg", caption="Good Review",width=50)
+                st.image("slike.jpg", caption="Good Review",width=50)
             elif prediction[0] == 0:
-                st.image("like.jpg", caption="Bad Review",width=50)
+                st.image("dilike.jpg", caption="Bad Review",width=50)
 
 # Display sentiment distribution
     st.subheader("Sentiment Distribution")
