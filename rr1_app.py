@@ -62,7 +62,7 @@ if dataset is not None:
 
     
     # Input for new review prediction
-    new_review = st.text_area("Enter a new review for sentiment prediction:")
+    new_review = st.chat_input("Enter a new review for sentiment prediction:")
     
     if st.button("Predict Sentiment"):
         if new_review:
